@@ -1,0 +1,137 @@
+/* Header and Logo */
+.header-container {
+  display: flex;
+  margin-top: 2vh;
+  height: 10vh;
+}
+.logo-container {
+  display: flex;
+  margin-left: 8vw;
+}
+
+.logo-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.header-text {
+  margin: 0px;
+  font-weight: bolder;
+}
+.employee {
+  color: #92a70c;
+}
+.payroll {
+  color: #42515f;
+}
+
+/* Form Container */
+.form-header h3 {
+  width: 83%;
+  padding-top: 1.5em;
+  margin: auto;
+  font-family: play sans-serif;
+}
+
+.form-container {
+  min-height: 95vh;
+  width: 60vw;
+  margin: 2% auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.row-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50vw;
+  margin: 5vh auto;
+}
+label {
+  min-width: 25%;
+  padding: 2px;
+  font-family: Play sans-serif;
+}
+.profile-logo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+}
+.profile-logo {
+  display: flex;
+  margin-right: 1.8em;
+}
+input {
+  padding: 9px;
+  width: 70%;
+  font-family: Play sans-serif;
+}
+
+.radio-logo {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+}
+/*gender */
+.gender-container {
+  display: flex;
+  flex-direction: row;
+}
+.gender-radio {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em;
+}
+.gender-radio input {
+  width: 30%;
+  height: 80%;
+}
+
+/* Department */
+.depart-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.input_dept {
+  display: flex;
+  margin-right: 1.8em;
+}
+
+/* Salary */
+
+/* Start date */
+select {
+  font-family: Play sans-serif;
+  padding: 0.8em;
+  margin-right: 0.2em;
+}
+
+/* textarea */
+textarea {
+  font-family: sans-serif play;
+}
+
+.btn-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  margin: 4em auto;
+}
+.right-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.btn-content button {
+  padding: 0.4em;
+  width: 8em;
+  height: 3em;
+  font-family: play, sans-serif;
+}

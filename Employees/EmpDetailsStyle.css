@@ -1,0 +1,90 @@
+
+body{
+  background-color:rgb(245, 244, 244);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Logo */
+
+.header-container {
+    display: flex;
+    padding: 1vh;
+    height: 10vh;
+    background-color: white;
+  }
+  .logo-container {
+    display: flex;
+    margin-left: 8vw;
+  }
+  
+  .logo-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .header-text {
+    margin: 0px;
+    font-weight: bolder;
+  }
+  .employee {
+    color: #92a70c;
+  }
+  .payroll {
+    color: #42515f;
+  }
+
+  /* Emp Details */
+  .emp-search-add{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;;
+    margin: 2em auto;
+    align-items: center;
+  }
+.search-btn{
+    color: black;
+    border-radius: 25px;
+    padding: 0.6em;
+    width: 4em;
+    border-style: none;
+}
+.add-user{
+    padding: 0.6em;
+    border-style: none;
+    border-radius: 1em;
+    width: 8em;
+    color: white;
+    background-color: #92a70c;
+    margin: 1em;
+    
+}
+.left h2{
+    color: #42515f;
+    font-size: 1.3em
+}
+
+/* table */
+table{
+  font-family: arial, sans-serif;
+  width: 80%;
+  margin: auto;
+  
+}
+.thead,th{
+  padding: 0 0 0 0.8em;
+  background-color:#42515f;
+  height: 5vh;
+  color: white;
+  text-align: left;
+
+}
+ .tablebody, td{
+  text-align: left;
+  padding: 0 0 0 0.8em;
+  background-color: white;
+  height: 5vh;
+
+}
